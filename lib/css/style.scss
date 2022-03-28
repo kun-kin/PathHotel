@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,500&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './header';
+@import './main';
+@import './footer';
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414042;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+h3 {
+    font-size: 34px;
+    color: #D1A84D;
+    @media(max-width: 768px) {
+        font-size: 28px;
+    }
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.title-1 {
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.item-cont {
+    margin-top: 35px;
+    padding-left: 95px;
+    position: relative;
+    &::before {
+        content: "";
+        width: 70px;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        top: 15px;
+        background: #D1A84D;
+    }
+    @media(max-width: 540px) {
+        padding-left: 55px;
+        &::before {
+            width: 35px;
+        }
+    }
+}
+
+.btn-more {
+    font-size: 16px;
+    font-weight: 500;
+    color: #D1A84D;
+    text-transform: uppercase;
+    position: relative;
+    &::after {
+        content: '\f054';
+        font-size: 14px;
+        font-family: 'Fontawesome';
+    }
+    &:hover {
+        color: #000000;
+    }
+}
+
+.btn-viewmore {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #D1A84D;
+    display: inline-block;
+    padding: 15px 80px;
+    border: solid 1px #D1A84D;
+    margin: 30px auto auto;
+    transition: all 0.8s linear;
+    &:hover {
+        color: white;
+        background-color: #D1A84D;
+    }
+}

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PartHotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Our hotel
+                                </a>
+                                <div class="drop-menu">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="./images/HUE_-_Menu.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Grand Sapa Resort & Spa</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="./images/HOTEL_HANOI_-_Menu.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Grand Hue Hotel</span>
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="./images/SAPA-_Menu.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Hotel Hanoi</span>
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="./images/Boutique_Hanoi_-_Menu_500x500.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Boutique Hanoi</span>
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Our story
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Offer
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Journal
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-hotline">
+                        <span class="hotline">
+                            hotline: 
+                            <a href="tel:+84 94 8555 555">
+                            +84 94 85555 555
+                            </a>
+                        </span>
+                        <br>
+                        <span class="change-language"> vi |</span>
+                        <span class="change-language"> en</span>
+                    </div>
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner">
+                <div class="banner-main owl-carousel owl-theme">
+                    <div class="bg-slide">
+                        <img src="./images/Home_ban_1.jpg" alt="">
+                    </div>
+                    <div class="bg-slide">
+                        <img src="./images/Home_ban_2.jpg" alt="">
+                    </div>
+                    <div class="bg-slide">
+                        <img src="https://th.bing.com/th/id/R.38cf7e58b9b75344204c9ecca7949e4c?rik=bgV5yjZsQWBWNA&pid=ImgRaw&r=0" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="check-rate">
+                <div class="container form-check">
+                    <form action="#" class="form-check__content">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <span>destination</span>
+                                <select name="hotelname" class="form-control">
+                                    <option value="">Select a destination</option>
+                                    <option value="silkpart1">
+                                        Silk Path Grand Hue Hotel
+                                    </option>
+                                    <option value="silkpart2">
+                                        Silk Path Grand Sapa Resort & Spa
+                                    </option>
+                                    <option value="silkpart3">
+                                        Silk Path Hotel Hanoi
+                                    </option>
+                                    <option value="silkpart4">
+                                        Silk Path Boutique Hanoi
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <span>check in</span>
+                                <input type="text" class="form-control check-in" id="date1" name="date1">
+                            </div>
+                            <div class="col-md-2">
+                                <span>check out</span>
+                                <input type="text" class="form-control check-out" id="date2" name="date2">
+                            </div>
+                            <div class="col-md-2">
+                                <span>guest</span>
+                                <select class="form-control" name="guest-number"> 
+                                    <option value="">Select number</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn-check-rate">check rate</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+            <section class="hotel-area">
+                <div class="container">
+                    <div class="title">
+                        <h3>
+                            Welcome to Silk Path, a boutique hotel collection
+                            <br> in Vietnam’s captivating heritage destinations
+                        </h3>
+                    </div>
+                    <div class="grid-area">
+                        <div class="item thumd">
+                            <img src="./images/area.jpg" alt="">
+                        </div>
+                        <div class="item desc">
+                            <p>
+                                We understand that when you’re looking for somewhere to stay, location is paramount. That’s why our hotels occupy only premier spots: Nestled in the Old Quarter or overlooking Hoan Kiem Lake in Hanoi; resting on one of the town’s highest hills in Sapa;
+                                and hugged by historic rivers and leafy streets in Hue.
+                            </p>
+                            <p>
+                                A homegrown hotel collection with over a decade of experience, we’ve also developed a thoughtful and natural approach to service. Our experienced team is encouraged to understand and predict your desires based on the kind of traveler you are – and they
+                                always deliver beyond expectations.
+                            </p>
+                            <p>
+                                Staying with Silk Path means seamless transfers and connections between our three diverse cities. Let us do all the logistical planning and heavy lifting, leaving you to focus on what’s most important – getting the most out of your trip with the people
+                                you care about.
+                            </p>
+                        </div>
+                        <div class="item thumd2">
+                            <img src="./images/area1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hotel-slide">
+                <div class="container">
+                    <div class="title-slide">
+                        <span class="title-1">our hotel</span>
+                        <h3>
+                            Our hotels are in unrivalled locations
+                            <br> that embody the character of the destination Previous
+
+                        </h3>
+                    </div>
+
+                </div>
+                <div class="slide-ourhotel owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./images/slide1.jpg" alt="">
+                        <div class="item-cont">
+                            <h4>
+                                Silk Path Grand Sapa Resort & Spa
+                            </h4>
+                            <p>
+                                The Silk Path Grand Sapa Resort & Spa perches on a private hill at one of the highest points in town, offering unobstructed views of the magnificent mountains, sometimes referred to as the “Vietnamese Alps.” A mountain retreat with all the trimmings,
+                                the resort offers elegantly appointed rooms, a stunning flower garden and a spa that delivers local treatments.
+                            </p>
+                            <a href="#" class="btn-more">
+                                discover more
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/slide2.jpg" alt="">
+                        <div class="item-cont">
+                            <h4>
+                                Silk Path Grand Sapa Resort & Spa
+                            </h4>
+                            <p>
+                                The Silk Path Grand Sapa Resort & Spa perches on a private hill at one of the highest points in town, offering unobstructed views of the magnificent mountains, sometimes referred to as the “Vietnamese Alps.” A mountain retreat with all the trimmings,
+                                the resort offers elegantly appointed rooms, a stunning flower garden and a spa that delivers local treatments.
+                            </p>
+                            <a href="#" class="btn-more">
+                                discover more
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/slide3.jpg" alt="">
+                        <div class="item-cont">
+                            <h4>
+                                Silk Path Grand Sapa Resort & Spa
+                            </h4>
+                            <p>
+                                The Silk Path Grand Sapa Resort & Spa perches on a private hill at one of the highest points in town, offering unobstructed views of the magnificent mountains, sometimes referred to as the “Vietnamese Alps.” A mountain retreat with all the trimmings,
+                                the resort offers elegantly appointed rooms, a stunning flower garden and a spa that delivers local treatments.
+                            </p>
+                            <a href="#" class="btn-more">
+                                discover more
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/slide1.jpg" alt="">
+                        <div class="item-cont">
+                            <h4>
+                                Silk Path Grand Sapa Resort & Spa
+                            </h4>
+                            <p>
+                                The Silk Path Grand Sapa Resort & Spa perches on a private hill at one of the highest points in town, offering unobstructed views of the magnificent mountains, sometimes referred to as the “Vietnamese Alps.” A mountain retreat with all the trimmings,
+                                the resort offers elegantly appointed rooms, a stunning flower garden and a spa that delivers local treatments.
+                            </p>
+                            <a href="#" class="btn-more">
+                                discover more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offer">
+                <div class="container">
+                    <div class="title-offer">
+                        <span class="title-1">SPECIAL OFFERS</span>
+                        <h3>
+                            Take a look at the exclusive website offers below
+                        </h3>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-4 item-offer">
+                            <div class="item-offer__thumd">
+                                <img src="./images/offer.jpg" alt="">
+                            </div>
+
+                            <div class="item-offer__cont">
+                                <h4>
+                                    Hue Ralaxation
+                                </h4>
+                                <p class="locate">Silk Path Grand Hue Hotel</p>
+                                <p class="list-local">
+                                    01 night stay with daily breakfast at hotel's restaurant
+                                </p>
+                                <p class="list-local">
+                                    01 night stay with daily breakfast at hotel's restaurant
+                                </p>
+                                <a href="#" class="btn-more">
+                                discover more
+                                </a>
+                            </div>
+                            <div class="infor-hide">
+                                <div class="block-infor">
+                                    <h4>
+                                        Hue Ralaxation
+                                    </h4>
+                                    <p>
+                                        Make the absolute most of your stay at the Silk Path Grand Hue Hotel with our Hue Relaxation package, from
+                                        <strong>
+                                            VND 1,980,000 per night
+                                        </strong>
+                                    </p>
+                                    <div class="block-infor__list">
+                                        <strong>
+                                            Included:
+                                        </strong>
+                                        <p>
+                                            1 night stay with daily breakfast at hotel's restaurant
+                                        </p>
+                                        <p>
+                                            Free of charge for 2 children under 6 (sharing bed with parents)
+                                        </p>
+                                        <p>
+                                            Welcome drink
+                                        </p>
+                                        <p>
+                                            Complimentary early check-in from 12:00, late check-out till 14:00 (subject to hotel availability)
+                                        </p>
+                                        <p>
+                                            Complimentary upgrade to Classic room (subject to hotel availability)
+                                        </p>
+                                        <p>
+                                            Discount 10% at hotel restaurant (not combined with other on-going promotions)
+                                        </p>
+                                        <p>
+                                            Discount 10% at Chi Spa (not combined with other on-going promotions)
+                                        </p>
+                                        <p>
+                                            Free access to swimming pool, fitness center, sauna
+                                        </p>
+                                    </div>
+                                    <a href="#" class="btn-more">
+                                        discover more
+                                    </a>
+                                    <div class="btn">
+                                        <a href="#" class="btn_booknow">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item-offer">
+                            <div class="item-offer__thumd">
+                                <img src="./images/offer1.jpg" alt="">
+                            </div>
+
+                            <div class="item-offer__cont">
+                                <h4>
+                                    Stay & Free pickup
+                                </h4>
+                                <p class="locate">Silk Path Hotel Hanoi</p>
+                                <p class="list-local">
+                                    2-night stay at Silk Path Hotel Hanoi, located in the Old Quarter
+                                </p>
+                                <p class="list-local">
+                                    1-way private transportation from/to the airport
+                                </p>
+                                <a href="#" class="btn-more">
+                                discover more
+                                </a>
+                            </div>
+                            <div class="infor-hide">
+                                <div class="block-infor">
+                                    <h4>
+                                        Stay & Free pickup
+                                    </h4>
+                                    <p>
+                                        Enjoy your stay and feel the vibe of Hanoi at our elegant hotel at the heart of the city, special rate only from
+                                        <strong>
+                                            VND 1,400,000 night
+                                        </strong>
+                                    </p>
+                                    <div class="block-infor__list">
+                                        <strong>
+                                            Included:
+                                        </strong>
+                                        <p>
+                                            02-night stay at Superior room
+                                        </p>
+                                        <p>
+                                            Free 1-way private transportation from/to the airport
+                                        </p>
+                                        <p>
+                                            High-speed internet: WiFi & cable
+                                        </p>
+                                        <p>
+                                            Free room upgrade to Deluxe room (upon availability)
+                                        </p>
+                                        <p>
+                                            Free early check-in from 11:00am and late check-out till 02:00pm (upon availability)
+                                        </p>
+
+                                    </div>
+                                    <a href="#" class="btn-more">
+                                        discover more
+                                    </a>
+                                    <div class="btn">
+                                        <a href="#" class="btn_booknow">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item-offer">
+                            <div class="item-offer__thumd">
+                                <img src="./images/offer2.jpg" alt="">
+                            </div>
+
+                            <div class="item-offer__cont">
+                                <h4>
+                                    Retreat to The Mountains
+                                </h4>
+                                <p class="locate">Silk Path Grand Sapa Resort & Spa</p>
+                                <p class="list-local">
+                                    1-night stay with breakfast at the resort restaurant
+                                </p>
+                                <p class="list-local">
+                                    Round-trip transportation from Hanoi to Sapa
+                                </p>
+                                <a href="#" class="btn-more">
+                                discover more
+                                </a>
+                            </div>
+                            <div class="infor-hide">
+                                <div class="block-infor">
+                                    <h4>
+                                        Retreat to The Mountains
+                                    </h4>
+                                    <p>
+                                        Enjoy one night in a classic balcony room overlooking our lush, green garden, plus roundtrip&nbsp;transportation from Hanoi to Sapa, only
+                                        <strong>
+                                            VND 1,550,000 per person
+                                        </strong>
+                                    </p>
+                                    <div class="block-infor__list">
+                                        <strong>
+                                            Included:
+                                        </strong>
+                                        <p>
+                                            1 night at Classic Garden view, with breakfast at the resort restaurant
+                                        </p>
+                                        <p>
+                                            Roundtrip transportation from Hanoi to Sapa
+                                        </p>
+                                        <p>
+                                            Access to the heated indoor swimming pool, gym, Kidz Club
+                                        </p>
+                                        <p>
+                                            Discount 30% on spa services
+                                        </p>
+                                        <p>
+                                            Discount 10% on food & beverage
+                                        </p>
+                                        <p>
+                                            Free early check-in or late check-out (subject to availability)
+                                        </p>
+
+                                    </div>
+                                    <a href="#" class="btn-more">
+                                        discover more
+                                    </a>
+                                    <div class="btn">
+                                        <a href="#" class="btn_booknow">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="view-more__offer">
+                        <a href="#" class="btn-viewmore">
+                            view more
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="journal">
+                <div class="container">
+                    <div class="title">
+                        <div class="title-1">
+                            journal
+                        </div>
+                        <h3>
+                            A curated mix of destinations, culture and travel tips from our experts
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 jour-left">
+                            <div class="img-thumd">
+                                <img src="./images/jour1.jpg" alt="">
+                            </div>
+                            <div class="item-cont">
+                                <h4>
+                                    Silk Path Grand Sapa Resort & Spa
+                                </h4>
+                                <p>
+                                    The Silk Path Grand Sapa Resort & Spa perches on a private hill at one of the highest points in town, offering unobstructed views of the magnificent mountains, sometimes referred to as the “Vietnamese Alps.” A mountain retreat with all the trimmings,
+                                    the resort offers elegantly appointed rooms, a stunning flower garden and a spa that delivers local treatments.
+                                </p>
+                                <a href="#" class="btn-more">
+                                    discover more
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 jour-right">
+                            <div class="img-thumd">
+                                <img src="./images/jour2.jpg" alt="">
+                            </div>
+                            <div class="item-cont">
+                                <h4>
+                                    Silk Path Grand Sapa Resort & Spa
+                                </h4>
+                                <p>
+                                    The Silk Path Grand Sapa Resort & Spa perches on a private hill at one of the highest points in town, offering unobstructed views of the magnificent mountains, sometimes referred to as the “Vietnamese Alps.” A mountain retreat with all the trimmings,
+                                    the resort offers elegantly appointed rooms, a stunning flower garden and a spa that delivers local treatments.
+                                </p>
+                                <a href="#" class="btn-more">
+                                    discover more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-more__journal">
+                        <a href="#" class="btn-viewmore">view more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="award">
+                <div class="container">
+                    <div class="title-award">
+                        Award
+                    </div>
+                    <div class="row">
+                        <div class="col-md list-award">
+                            <div class="img">
+                                <img src="./images/award1.png" alt="">
+                            </div>
+                            <div class="name">
+                                APTTF Annual Awards
+                            </div>
+                            <div class="brief">
+                                Best Luxury City Hotel Best Mountain Resort
+                            </div>
+                        </div>
+                        <div class="col-md list-award">
+                            <div class="img">
+                                <img src="./images/award2.png" alt="">
+                            </div>
+                            <div class="name">
+                                Best Leisure Property in Vietnam’ in 2018
+                            </div>
+                            <div class="brief">
+                                Voted by Vietnam Real Estate Association 2018
+
+                            </div>
+                        </div>
+                        <div class="col-md list-award">
+                            <div class="img">
+                                <img src="./images/award3.png" alt="">
+                            </div>
+                            <div class="name">
+                                World Luxury Hotel Awards 2018
+                            </div>
+                            <div class="brief">
+                                Global Luxury Garden Resort Asia’s Luxury Mountain Resort
+                            </div>
+                        </div>
+                        <div class="col-md list-award">
+                            <div class="img">
+                                <img src="./images/award4.png" alt="">
+                            </div>
+                            <div class="name">
+                                19th Annual The Guide Awards 2018
+                            </div>
+                            <div class="brief">
+                                Excellent Resort of the year
+                            </div>
+                        </div>
+                        <div class="col-md list-award">
+                            <div class="img">
+                                <img src="./images/award5.png" alt="">
+                            </div>
+                            <div class="name">
+                                2019 Travellers choice Awards
+                            </div>
+                            <div class="brief">
+                                Top hotels in Vietnam
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="title-contact">
+                                Contact Us
+                            </div>
+                            <div class="contact-infor">
+                                <p>
+                                    Silk Path Hotel & Resorts - Corporate Office 3rd Floor, 4 Pham Ngu Lao, Hanoi, Vietnam +84 24 3266 8585
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="" class="form-contact">
+                                <input type="text" name="phone-contact" id="" class="phone-contact" placeholder="Phone">
+                                <input type="email" name="email-contact" id="" class="email-contact" placeholder="Email">
+                                <button type="submit" class="btn-contact">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="map-main">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7447.6183430604115!2d105.77457770000002!3d21.040320200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1648433170745!5m2!1svi!2s" width="600" height="450" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#" class="logo-footer">
+                            <img src="./images/logo_foot.svg"">
+                        </a>
+                        <div class="footer-contact__infor">
+                            <div>Hotline:</div>
+                            <div>
+                                <a href="tel:+84 94 8555 555"> 
+                                    +84 94 8555 555
+                                </a>
+                            </div>
+                            <div>Email:</div>
+                            <div>
+                                <a href="mailto:reservation@silkpathhotel.com">
+                                    reservation@silkpathhotel.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="title-footer">
+                                    NAVIGATIONS
+                                </div>
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Our Hotels
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Our Story
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Offers
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                MICE
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Journal
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="title-footer">
+                                    OUR HOTELS
+                                </div>
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Grand Hue Hotel
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Grand Sapa Resort & Spa
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Hotel Hanoi
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Boutique Hanoi
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <a href="" class="link-dowload">
+                                DOWNLOAD BROCHURE
+                                <img src="./images/icon_download.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="title-footer">
+                            NEWSLETTER SIGN UP
+                        </div>
+                        <p class="text-sub">
+                            Subscribe and stay up to date with all the lastest news and deals from us
+                        </p>
+                        <div class="sub-contact">
+                            <input type="text" name="email-sub" id="" class="email-sub" placeholder="Your Email">
+                            <button type="submit" class="btn-sub">
+                                <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                            </button>
+                        </div>
+                        <div class="title-footer follow-us">
+                            follow us
+                        </div>
+                        <div class="social">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-youtube-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row btm-footer">
+                    <div class="col-md-9">
+                        Copyright © 2020 Silkpath All rights reserved
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="link-footer">Privacy Policy </a>
+                        <a href="" class="link-footer">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile-menu">
+            <div class="mobile-menu__cont">
+                <div class="close">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="mobile-title">
+                    Menu
+                </div>
+                <ul class="mobile-list">
+                    <li>
+                        <a href="">OUR HOTELS</a>
+                        <ul class="menu-child">
+                            <li><a href="">
+                                SILK PATH GRAND SAPA RESORT & SPA
+                            </a></li>
+                            <li><a href="">
+                                SILK PATH GRAND HUE HOTEL
+                            </a></li>
+                            <li><a href="">
+                                SILK PATH HOTEL HANOI
+                            </a></li>
+                            <li><a href="">
+                                SILK PATH BOUTIQUE HANOI
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">OUR STORY</a>
+                    </li>
+                    <li>
+                        <a href="">OFFERS</a>
+                    </li>
+                    <li>
+                        <a href="">EVENTS</a>
+                    </li>
+                    <li>
+                        <a href="">JOURNAL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="triggle-btn">
+            s
+        </div>
+    </div>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./lib/js/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./lib/js/style.js"></script>
+</body>
+
+</html>

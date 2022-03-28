@@ -1,0 +1,145 @@
+.header {
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+    position: relative;
+    .logo {
+        img {
+            width: 120px;
+            height: 75px;
+            object-fit: cover;
+        }
+    }
+    .menu {
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 30px;
+            list-style: none;
+            margin-bottom: 0;
+            .menu-item {
+                .menu-link {
+                    display: inline-block;
+                    color: currentColor;
+                    position: relative;
+                    &:hover {
+                        color: #D1A84D;
+                    }
+                }
+                &:nth-child(1) {
+                    margin-right: 22px;
+                    .menu-link {
+                        &::before {
+                            content: '\f107';
+                            font-family: 'Fontawesome';
+                            position: absolute;
+                            top: 50%;
+                            right: -20px;
+                            transform: translate(0, -50%);
+                            transition: all 0.3s linear;
+                        }
+                    }
+                }
+                .drop-menu {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    background: black;
+                    z-index: 2;
+                    top: 0;
+                    opacity: 0;
+                    visibility: hidden;
+                    padding: 20px 0;
+                    transition: all 0.3s linear;
+                    .row {
+                        align-items: flex-start;
+                        .thumd {
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        .desc {
+                            font-family: 'Playfair Display';
+                            text-align: center;
+                            padding: 20px 0;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .menu-item.show {
+                .menu-link {
+                    &::before {
+                        transform: translate(0, -50%) rotate(180deg);
+                        transition: all 0.3s linear;
+                    }
+                }
+                .drop-menu {
+                    top: 88px;
+                    opacity: 1;
+                    visibility: visible;
+                    transition: all 0.3s linear;
+                }
+            }
+        }
+    }
+    .header-hotline {
+        text-align: right;
+        text-transform: uppercase;
+        a {
+            color: currentColor;
+        }
+    }
+    .toggle-menu {
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        display: none;
+        span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: currentColor;
+            transition: all 0.3s linear;
+        }
+    }
+    .toggle-menu.show {
+        span {
+            &:nth-child(1) {
+                transform: translateY(8px) translateX(0) rotate(45deg);
+                transition: all 0.3s ease-in-out;
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:nth-child(3) {
+                transform: translateY(-8px) translateX(0) rotate(-45deg);
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+    @media(max-width:865px) {
+        .menu {
+            display: none;
+        }
+        .header-hotline {
+            display: none;
+        }
+        .toggle-menu {
+            display: block;
+        }
+    }
+}
+
+.header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    padding: 12px 0;
+}
