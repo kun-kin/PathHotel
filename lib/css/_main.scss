@@ -42,6 +42,23 @@ section.check-rate {
                 margin-bottom: 20px;
             }
         }
+        .col-md-2 {
+            &:nth-child(2),
+            &:nth-child(3) {
+                position: relative;
+                display: block;
+                &::before {
+                    content: '\f073';
+                    position: absolute;
+                    font-family: 'fontawesome';
+                    top: 30px;
+                    color: #414042;
+                    opacity: 0.5;
+                    right: 15px;
+                    font-size: 24px;
+                }
+            }
+        }
         .btn-check-rate {
             background: #D1A84D;
             color: #fff;
@@ -53,6 +70,9 @@ section.check-rate {
             @media(max-width: 768px) {
                 padding: 15px;
             }
+        }
+        @media(max-width:991px) {
+            padding: 15px;
         }
     }
 }
@@ -475,19 +495,27 @@ section.award {
         text-align: center;
         margin-bottom: 50px;
     }
-    .row {
-        align-items: flex-start;
+    .award-slide {
         .list-award {
             text-align: center;
+            padding: 0 20px;
             .img {
                 height: 135px;
                 margin-bottom: 30px;
+                img {
+                    height: 100%;
+                    object-fit: contain;
+                }
             }
             .name {
                 font-family: 'Playfair Display', serif;
                 font-size: 17px;
                 margin-bottom: 10px;
             }
+        }
+        .owl-nav,
+        .owl-dots {
+            display: none;
         }
     }
     @media(max-width:768px) {
