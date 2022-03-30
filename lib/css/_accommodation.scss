@@ -129,10 +129,13 @@ section.hotel-slide.accommo {
                 display: none;
             }
         }
-        // .owl-dots {
-        //     margin-top: -70px;
-        //     padding-bottom: 20px;
-        // }
+        .owl-dots {
+            // margin-top: -70px;
+            // padding-bottom: 20px;
+            @media(max-width: 768px) {
+                display: none;
+            }
+        }
         .owl-dots button {
             position: relative;
             width: 20px;
