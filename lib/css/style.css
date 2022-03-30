@@ -8,7 +8,7 @@
 
 .header {
   background-color: black;
-  padding: 20px 0;
+  padding: 15px 0;
   color: white;
   position: relative;
 }
@@ -131,7 +131,9 @@
   left: 0;
   right: 0;
   z-index: 9;
-  padding: 12px 0;
+  animation: fadeInDown;
+  animation-delay: 0.2s;
+  animation-duration: 1s;
 }
 
 section.banner .banner-main .bg-slide {
