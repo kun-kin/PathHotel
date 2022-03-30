@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PartHotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../lib/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <a href="../index.html">
+                            <img src="../images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item nav-dropdown">
+                                <a class="menu-link">
+                                    Our hotel
+                                </a>
+                                <div class="drop-menu">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="drop-menu__item col-3">
+                                                <a href="./sapa.html">
+                                                    <div class="thumd">
+                                                        <img src="../images/HUE_-_Menu.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Grand Sapa Resort & Spa</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="../images/HOTEL_HANOI_-_Menu.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Grand Hue Hotel</span>
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="../images/SAPA-_Menu.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Hotel Hanoi</span>
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                            <div class="drop-menu__item col-3">
+                                                <a href="">
+                                                    <div class="thumd">
+                                                        <img src="../images/Boutique_Hanoi_-_Menu_500x500.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <span>Silk Path Boutique Hanoi</span>
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="../our-story.html" class="menu-link">
+                                    Our story
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="../offer.html" class="menu-link">
+                                    Offer
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="../event.html" class="menu-link">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="../journal.html" class="menu-link">
+                                    Journal
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-hotline">
+                        <span class="hotline">
+                            hotline: 
+                            <a href="tel:+84 94 8555 555">
+                            +84 94 85555 555
+                            </a>
+                        </span>
+                        <br>
+                        <span class="change-language"> vi |</span>
+                        <span class="change-language"> en</span>
+                    </div>
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menu-hotel">
+            <div class="container">
+                <ul class="menu-hotel__list">
+                    <li>
+                        <a href="./sapa.html">
+                      Silk Path Boutique Hanoi
+                    </a>
+                    </li>
+                    <li>
+                        <a href="./accommodation.html">
+                      Accommodation
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      Dining
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      Facilities
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      Offers
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      Things to do
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                      Gallery
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main class="main">
+            <section class="banner">
+                <div class="banner-main owl-carousel owl-theme">
+                    <div class="bg-slide">
+                        <img src="../images/1-_Banner_sapa.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="check-rate">
+                <div class="container form-check">
+                    <form action="#" class="form-check__content">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <span>destination</span>
+                                <select name="hotelname" class="form-control">
+                                    <option value="">Select a destination</option>
+                                    <option value="silkpart1">
+                                        Silk Path Grand Hue Hotel
+                                    </option>
+                                    <option value="silkpart2">
+                                        Silk Path Grand Sapa Resort & Spa
+                                    </option>
+                                    <option value="silkpart3">
+                                        Silk Path Hotel Hanoi
+                                    </option>
+                                    <option value="silkpart4">
+                                        Silk Path Boutique Hanoi
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <span>check in</span>
+                                <input type="text" class="form-control check-in" id="date1" name="date1">
+                            </div>
+                            <div class="col-md-2">
+                                <span>check out</span>
+                                <input type="text" class="form-control check-out" id="date2" name="date2">
+                            </div>
+                            <div class="col-md-2">
+                                <span>guest</span>
+                                <select class="form-control" name="guest-number"> 
+                                    <option value="">Select number</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn-check-rate">check rate</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+
+            <section class="hotel-slide">
+                <div class="container">
+                    <div class="title-intro">
+                        <h3>
+                            Our hotels are in unrivalled locations
+                            <br> that embody the character of the destination Previous
+                        </h3>
+                    </div>
+                    <div class="bref-intro">
+                        Welcome to our mountain resort, perched on a private spot atop one of Sapa’s highest hills. Here time stands still, giving you ample opportunities to stroll through the flower gardens and absorb captivating views of the surrounding mountain range. During
+                        colonial times Sapa – surrounded by what is referred to as the “Vietnamese Alps” – was a hill station where the French escaped the Hanoi heat, and this heritage is reflected in our elegant, regal interior design and architecture.
+                    </div>
+                    <div class="slide-ourhotel owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="../images/slide1.jpg" alt="">
+
+                        </div>
+                        <div class="item">
+                            <img src="../images/slide2.jpg" alt="">
+
+                        </div>
+                        <div class="item">
+                            <img src="../images/slide3.jpg" alt="">
+
+                        </div>
+                        <div class="item">
+                            <img src="../images/slide1.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="accommo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="thumd">
+                                <img src="../images/3-_Accommo_ngang.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="title-1">
+                                    ACCOMMODATION
+                                </div>
+                                <h3>
+                                    Sleep soundly
+                                </h3>
+                                <div class="text">
+                                    Our rooms are a careful blend of Sapa’s colonial heritage and the colorful cultures that live in the region. Sink into your room after a day of exploring the mountains. Then sleep easy while breathing fresh mountain air before opening the curtains to
+                                    reveal the views.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="thumd">
+                                <img src="../images/3-_Accommo_dọc.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-more__accommo">
+                        <a href="./accommodation.html" class="btn-viewmore">exploser room</a>
+                    </div>
+                </div>
+            </section>
+            <section class="faci">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 left">
+                            <div class="thumd">
+                                <img src="../images/4-_Dining.jpg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 right">
+                            <div class="desc">
+                                <div class="title-1">
+                                    DINING
+                                </div>
+                                <h3>
+                                    Stunning food with views to match
+                                </h3>
+                                <div class="text">
+                                    Tickle your taste buds in one of our four restaurants, offering fine Vietnamese cuisine with touches of the northern highlands and European fare enhanced by fresh, local produce. From comfortable and casual to high-end elegance, our restaurants and eateries
+                                    offer something for every mood.
+                                </div>
+                                <div class="btn-viewmore2">
+                                    view more
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 left">
+                            <div class="thumd">
+                                <img src="../images/2_(1).jpg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 right">
+                            <div class="desc">
+                                <div class="title-1">
+                                    FACILITIES
+                                </div>
+                                <h3>
+                                    Simply luxurious facilities & services
+                                </h3>
+                                <div class="text">
+                                    FACILITIES Simply luxurious facilities & services Our mountain resort goes beyond elegant rooms and exceptional food. After a day of hiking in the hills or discovering the town, you can retire to the resort and get pampered. Spend some time in our spa,
+                                    work up a sweat in the gym, or relax in our indoor heated pool.
+                                </div>
+                                <div class="btn-viewmore2">
+                                    view more
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offer offer-sapa">
+                <div class="container">
+                    <div class="title-offer">
+                        <span class="title-1">SPECIAL OFFERS</span>
+                        <h3>
+                            Exclusive offers in Sapa when you book on our website
+                        </h3>
+                    </div>
+                    <div class="row">
+
+
+                        <div class="col-md-4 item-offer">
+                            <div class="item-offer__thumd">
+                                <img src="../images/offer2.jpg" alt="">
+                            </div>
+
+                            <div class="item-offer__cont">
+                                <h4>
+                                    Retreat to The Mountains
+                                </h4>
+                                <p class="locate">Silk Path Grand Sapa Resort & Spa</p>
+                                <p class="list-local">
+                                    1-night stay with breakfast at the resort restaurant
+                                </p>
+                                <p class="list-local">
+                                    Round-trip transportation from Hanoi to Sapa
+                                </p>
+                                <a href="#" class="btn-more">
+                                discover more
+                                </a>
+                            </div>
+                            <div class="infor-hide">
+                                <div class="block-infor">
+                                    <h4>
+                                        Retreat to The Mountains
+                                    </h4>
+                                    <p>
+                                        Enjoy one night in a classic balcony room overlooking our lush, green garden, plus roundtrip&nbsp;transportation from Hanoi to Sapa, only
+                                        <strong>
+                                            VND 1,550,000 per person
+                                        </strong>
+                                    </p>
+                                    <div class="block-infor__list">
+                                        <strong>
+                                            Included:
+                                        </strong>
+                                        <p>
+                                            1 night at Classic Garden view, with breakfast at the resort restaurant
+                                        </p>
+                                        <p>
+                                            Roundtrip transportation from Hanoi to Sapa
+                                        </p>
+                                        <p>
+                                            Access to the heated indoor swimming pool, gym, Kidz Club
+                                        </p>
+                                        <p>
+                                            Discount 30% on spa services
+                                        </p>
+                                        <p>
+                                            Discount 10% on food & beverage
+                                        </p>
+                                        <p>
+                                            Free early check-in or late check-out (subject to availability)
+                                        </p>
+
+                                    </div>
+                                    <a href="#" class="btn-more">
+                                        discover more
+                                    </a>
+                                    <div class="btn">
+                                        <a href="#" class="btn_booknow">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="view-more__offer">
+                        <a href="#" class="btn-viewmore">
+                            view more
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="event">
+                <div class="container">
+                    <div class="title">
+                        <div class="title-1">
+                            PLAN YOUR EVENT
+                        </div>
+                        <h3>
+                            Celebrate in style
+                        </h3>
+                        <div class="text">
+                            From corporate conferences to social soirees, celebrating in Sapa should be something special. Due to our state-of-the-art equipment and thoughtful service staff, we can make sure that events with us are exactly that, whatever the occasion.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="thumd">
+                            <img src="../images/event-100.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="view-more__journal">
+                        <a href="#" class="btn-viewmore">view more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="destination">
+                <div class="title-1">
+                    THINGS TO DO
+                </div>
+                <div class="tab-menu tab-brands">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                            <a class="nav-link active" id="at-hotel-tab" data-toggle="tab" href="#at-hotel" role="tab" aria-controls="nav-home" aria-selected="true">
+                                At the hotel
+                            </a>
+                            <a class="nav-link" id="local-hotel-tab" data-toggle="tab" href="#local-hotel" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                local Exploration
+                            </a>
+
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="at-hotel" role="tabpanel" aria-labelledby="at-hotel-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7 left">
+                                    <div class="thumd">
+                                        <img src="../images/Sapa_Destination_At_the_hotel.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-5 desc">
+                                    <p>
+                                        After a day of exploring Sapa and the surroundings, you can soak in our four-season swimming pool, indulge yourself in our spa or even work off excess energy in the gym. In the evening you can feast and relax in one of your restaurants or cafes, or even
+                                        take the mic and sing some karaoke!
+                                    </p>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <strong>The Pool</strong>
+                                            </td>
+                                            <td>
+                                                7:00AM - 10:00PM
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>The Gym</strong>
+                                            </td>
+                                            <td>
+                                                7:00AM - 10:00PM
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Chi Spa</strong>
+                                            </td>
+                                            <td>
+                                                9:00AM - 10:00PM
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Kids Club</strong>
+                                            </td>
+                                            <td>
+                                                7:00AM - 10:00PM
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>DIVA Karaoke</strong>
+                                            </td>
+                                            <td>
+                                                Contact for more information
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Sky 6 Lounge</strong>
+                                            </td>
+                                            <td>
+                                                Contact for more information
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="local-hotel" role="tabpanel" aria-labelledby="local-hotel-tab">
+                        <div class="container">
+                            <!-- tab-menu-c2 -->
+                            <div class="tab-menu tab-menu tab-menu2">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                        <a class="nav-link active" id="at-see-tab" data-toggle="tab" href="#see" role="tab" aria-controls="nav-home" aria-selected="true">
+                                            See
+                                        </a>
+                                        <a class="nav-link" id="at-eat-tab" data-toggle="tab" href="#eat" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                            Eat
+                                        </a>
+                                        <a class="nav-link" id="at-play-tab" data-toggle="tab" href="#play" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                            Play
+                                        </a>
+
+                                    </div>
+                                </nav>
+
+                            </div>
+                            <div class="tab-content tab-content2" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="see" role="tabpanel" aria-labelledby="at-see-tab">
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="thumd">
+                                                <img src="../images/Sapa_Destination_Local_Exploration_Play.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="desc">
+                                                <div class="text">
+                                                    There are plenty of walking and hiking opportunities in and around Sapa. Some small villages sit just a kilometer from town, whereas you can reach others in half- and full-day hikes.
+                                                </div>
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <strong>Below 1 km</strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Quang Truong Square</td>
+                                                        <td>0.6 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Holy Rosary Church</td>
+                                                        <td>0.6 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <strong>From 1km to 5km</strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fansipan Cable Car Station</td>
+                                                        <td>1 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ham Rong Mountain</td>
+                                                        <td>1.2 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Cat Cat Village</td>
+                                                        <td>2.2 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <strong>Above 5km</strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Silver Waterfall</td>
+                                                        <td>1 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ta Phin Village</td>
+                                                        <td>1.2 km</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ta Van Village</td>
+                                                        <td>2.2 km</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="eat" role="tabpanel" aria-labelledby="at-eat-tab">
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="thumd">
+                                                <img src="../images/Sapa_Destination_Local_Exploration_Eat.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="desc">
+                                                <div class="text">
+                                                    You’ll find a wealth of food to enjoy in and around Sapa, from hearty Vietnamese fare to specialties specific to the northern mountains. There’s also a good selection of international food available.
+                                                </div>
+                                                <ul>
+                                                    <li>Grilled dishes</li>
+                                                    <li>Smoking-shelf buffalo meat over a cooking fire</li>
+                                                    <li>Salmon hot pot</li>
+                                                    <li>Thang co</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="play" role="tabpanel" aria-labelledby="at-play-tab">
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="thumd">
+                                                <img src="../images/Sapa_Destination_Local_Exploration_See.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="desc">
+                                                <div class="text">
+                                                    Sapa is a shopper’s paradise, with a huge market selling local textiles and small boutiques supporting artisan cooperatives. Though most patterns were desinged for clothing, they’ve been repurposed beautifully for furniture, scarfs and more
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="container">
+                    <div class="title-1">
+                        gallery
+                    </div>
+                    <h3>
+                        The resort at a glance
+                    </h3>
+                    <div class="gallery-cont">
+                        <img src="../images/Sapa_Homepage_gallery.jpg" alt="">
+                        <a href="" class="btn-viewmore2">view more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="title-contact">
+                                Contact Us
+                            </div>
+                            <div class="contact-infor">
+                                <p>
+                                    Silk Path Hotel & Resorts - Corporate Office 3rd Floor, 4 Pham Ngu Lao, Hanoi, Vietnam +84 24 3266 8585
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="" class="form-contact">
+                                <input type="text" name="phone-contact" id="" class="phone-contact" placeholder="Phone">
+                                <input type="email" name="email-contact" id="" class="email-contact" placeholder="Email">
+                                <button type="submit" class="btn-contact">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="map-main">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7447.6183430604115!2d105.77457770000002!3d21.040320200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1648433170745!5m2!1svi!2s" width="600" height="450" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#" class="logo-footer">
+                            <img src="../images/logo_foot.svg"">
+                        </a>
+                        <div class="footer-contact__infor">
+                            <div>Hotline:</div>
+                            <div>
+                                <a href="tel:+84 94 8555 555"> 
+                                    +84 94 8555 555
+                                </a>
+                            </div>
+                            <div>Email:</div>
+                            <div>
+                                <a href="mailto:reservation@silkpathhotel.com">
+                                    reservation@silkpathhotel.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="title-footer">
+                                    NAVIGATIONS
+                                </div>
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li>
+                                            <a href="../index.html">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Our Hotels
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../our-story.html">
+                                                Our Story
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../offer.html">
+                                                Offers
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../event.html">
+                                                MICE
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../journal.html">
+                                                Journal
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="title-footer">
+                                    OUR HOTELS
+                                </div>
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Grand Hue Hotel
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Grand Sapa Resort & Spa
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Hotel Hanoi
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Silk Path Boutique Hanoi
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <a href="" class="link-dowload">
+                                DOWNLOAD BROCHURE
+                                <img src="../images/icon_download.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="title-footer">
+                            NEWSLETTER SIGN UP
+                        </div>
+                        <p class="text-sub">
+                            Subscribe and stay up to date with all the lastest news and deals from us
+                        </p>
+                        <div class="sub-contact">
+                            <input type="text" name="email-sub" id="" class="email-sub" placeholder="Your Email">
+                            <button type="submit" class="btn-sub">
+                                <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                            </button>
+                        </div>
+                        <div class="title-footer follow-us">
+                            follow us
+                        </div>
+                        <div class="social">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-youtube-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row btm-footer">
+                    <div class="col-md-9">
+                        Copyright © 2020 Silkpath All rights reserved
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="link-footer">Privacy Policy </a>
+                        <a href="" class="link-footer">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile-menu">
+            <div class="mobile-menu__cont">
+                <div class="close">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="mobile-title">
+                    Menu
+                </div>
+                <ul class="mobile-list">
+                    <li>
+                        <a href="../index.html">OUR HOTELS</a>
+                        <ul class="menu-child">
+                            <li><a href="./sapa.html">
+                                SILK PATH GRAND SAPA RESORT & SPA
+                            </a></li>
+                            <li><a href="">
+                                SILK PATH GRAND HUE HOTEL
+                            </a></li>
+                            <li><a href="">
+                                SILK PATH HOTEL HANOI
+                            </a></li>
+                            <li><a href="">
+                                SILK PATH BOUTIQUE HANOI
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../our-story.html">OUR STORY</a>
+                    </li>
+                    <li>
+                        <a href="../offer.html">OFFERS</a>
+                    </li>
+                    <li>
+                        <a href="../event.html">EVENTS</a>
+                    </li>
+                    <li>
+                        <a href="../journal.html">JOURNAL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../lib/js/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../lib/js/style.js"></script>
+</body>
+
+</html>

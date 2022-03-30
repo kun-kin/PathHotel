@@ -27,20 +27,6 @@
                         color: #D1A84D;
                     }
                 }
-                &:nth-child(1) {
-                    margin-right: 22px;
-                    .menu-link {
-                        &::before {
-                            content: '\f107';
-                            font-family: 'Fontawesome';
-                            position: absolute;
-                            top: 50%;
-                            right: -20px;
-                            transform: translate(0, -50%);
-                            transition: all 0.3s linear;
-                        }
-                    }
-                }
                 .drop-menu {
                     position: absolute;
                     left: 0;
@@ -67,6 +53,20 @@
                             padding: 20px 0;
                             color: white;
                         }
+                    }
+                }
+            }
+            .menu-item.nav-dropdown {
+                margin-right: 22px;
+                .menu-link {
+                    &::before {
+                        content: '\f107';
+                        font-family: 'Fontawesome';
+                        position: absolute;
+                        top: 50%;
+                        right: -20px;
+                        transform: translate(0, -50%);
+                        transition: all 0.3s linear;
                     }
                 }
             }
