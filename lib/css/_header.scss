@@ -5,9 +5,7 @@
     position: relative;
     .logo {
         img {
-            width: 120px;
-            height: 75px;
-            object-fit: cover;
+            max-width: 120px;
         }
     }
     .menu {
