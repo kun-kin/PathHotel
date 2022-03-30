@@ -1040,6 +1040,10 @@ section.hotel-slide.accommo .accommo-slide .owl-nav button.owl-next::before {
 section.hotel-slide.accommo .accommo-slide .owl-nav button.owl-next span {
   display: none;
 }
+section.hotel-slide.accommo .accommo-slide .owl-dots {
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
 section.hotel-slide.accommo .accommo-slide .owl-dots button {
   position: relative;
   width: 20px;
