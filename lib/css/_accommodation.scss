@@ -57,15 +57,12 @@ section.hotel-slide.accommo {
                     transform: scale(1.15);
                 }
                 .item-cont {
-                    margin: 30px -20px 0;
+                    margin: 30px -185px 0;
                     padding-top: 80px;
                     opacity: 1;
                     &::before {
                         top: 60px;
                         width: 100px;
-                    }
-                    @media(max-width:991px) {
-                        margin: 30px -185px 0;
                     }
                     @media(max-width: 768px) {
                         margin: 50px 15px 0;

@@ -964,18 +964,13 @@ section.hotel-slide.accommo .accommo-slide .owl-item.center .item img {
   transform: scale(1.15);
 }
 section.hotel-slide.accommo .accommo-slide .owl-item.center .item .item-cont {
-  margin: 30px -20px 0;
+  margin: 30px -185px 0;
   padding-top: 80px;
   opacity: 1;
 }
 section.hotel-slide.accommo .accommo-slide .owl-item.center .item .item-cont::before {
   top: 60px;
   width: 100px;
-}
-@media (max-width: 991px) {
-  section.hotel-slide.accommo .accommo-slide .owl-item.center .item .item-cont {
-    margin: 30px -185px 0;
-  }
 }
 @media (max-width: 768px) {
   section.hotel-slide.accommo .accommo-slide .owl-item.center .item .item-cont {
