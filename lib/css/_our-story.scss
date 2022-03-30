@@ -2,6 +2,9 @@ section.banner {
     .banner-main {
         .bg-slide.our-banner {
             height: 70vh;
+            @media(max-width: 768px) {
+                height: auto;
+            }
         }
     }
 }
@@ -30,6 +33,9 @@ section.content-main {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+        @media(max-width: 768px) {
+            height: auto;
         }
     }
     img {

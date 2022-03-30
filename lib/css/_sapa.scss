@@ -190,6 +190,9 @@ section.destination {
             &:hover {
                 color: #D1A84D;
             }
+            @media(max-width:540px) {
+                font-size: 24px;
+            }
         }
         .nav-link.active {
             border: none;

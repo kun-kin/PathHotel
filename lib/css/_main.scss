@@ -542,7 +542,7 @@ section.contact-us {
         flex-direction: column;
         input {
             margin-bottom: 15px;
-            width: 250px;
+            max-width: 250px;
             height: 30px;
             padding: 5px 10px;
             &:focus {
@@ -556,7 +556,7 @@ section.contact-us {
             padding: 8px 80px;
             background: #D1A84D;
             margin-top: 20px;
-            width: 200px;
+            max-width: 200px;
             border: none;
             cursor: pointer;
         }
