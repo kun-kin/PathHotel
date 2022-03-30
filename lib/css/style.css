@@ -1144,6 +1144,7 @@ section.faci .row .desc .btn-viewmore2 {
   background: #EAE3DB;
   display: inline-block;
   transition: all 0.5s;
+  cursor: pointer;
 }
 section.faci .row .desc .btn-viewmore2:hover {
   background: #B2A497;
