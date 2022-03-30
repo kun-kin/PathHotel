@@ -1,5 +1,5 @@
-.bg-slide.accommo {
-    max-height: 70vh !important;
+section.banner .banner-main .bg-slide.accommo {
+    height: auto;
 }
 
 .accommo {
@@ -129,10 +129,10 @@ section.hotel-slide.accommo {
                 display: none;
             }
         }
-        .owl-dots {
-            margin-top: -70px;
-            padding-bottom: 20px;
-        }
+        // .owl-dots {
+        //     margin-top: -70px;
+        //     padding-bottom: 20px;
+        // }
         .owl-dots button {
             position: relative;
             width: 20px;

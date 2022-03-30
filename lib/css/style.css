@@ -908,8 +908,8 @@ section.gallery .tab-content .tab-pane .content-tab__main .item img {
   }
 }
 
-.bg-slide.accommo {
-  max-height: 70vh !important;
+section.banner .banner-main .bg-slide.accommo {
+  height: auto;
 }
 
 .accommo .title-slide {
@@ -1039,10 +1039,6 @@ section.hotel-slide.accommo .accommo-slide .owl-nav button.owl-next::before {
 }
 section.hotel-slide.accommo .accommo-slide .owl-nav button.owl-next span {
   display: none;
-}
-section.hotel-slide.accommo .accommo-slide .owl-dots {
-  margin-top: -70px;
-  padding-bottom: 20px;
 }
 section.hotel-slide.accommo .accommo-slide .owl-dots button {
   position: relative;
