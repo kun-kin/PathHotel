@@ -1086,7 +1086,8 @@ section.hotel-slide.accommo .accommo-slide .owl-dots button.active::before {
   color: #414042;
 }
 .menu-hotel__list li a:hover {
-  color: white;
+  color: #000;
+  font-weight: 500;
 }
 
 .bref-intro {
@@ -1141,6 +1142,9 @@ section.faci .row .desc .btn-viewmore2 {
   background: #EAE3DB;
   display: inline-block;
   transition: all 0.5s;
+}
+section.faci .row .desc .btn-viewmore2:hover {
+  background: #B2A497;
 }
 @media (max-width: 991px) {
   section.faci .row .desc {
@@ -1550,6 +1554,7 @@ section.contact-us {
 }
 
 .triggle-btn {
+  display: none;
   cursor: pointer;
   position: fixed;
   right: 1.5em;
