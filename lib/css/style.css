@@ -1367,7 +1367,13 @@ section.contact-us {
 }
 
 section.contact {
+  background: url("../../images/contact-usbg.svg") no-repeat;
+  background-position: top center;
+  background-size: 100%;
   margin: 60px 0;
+}
+section.contact .title-intro {
+  font-size: 34px;
 }
 section.contact .form-contact {
   padding: 60px 45px;
@@ -1394,21 +1400,25 @@ section.contact .form-contact .form-control {
   border: 1px solid #ced4da;
   border-radius: 0;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  position: relative;
+}
+section.contact .form-contact .form-group {
   margin-bottom: 35px;
 }
-section.contact .form-contact .date {
+section.contact .form-contact .date-pick {
   position: relative;
   display: block;
 }
-section.contact .form-contact .date::before {
+section.contact .form-contact .date-pick::before {
   content: "\f073";
   position: absolute;
   display: block;
   font-family: "fontawesome";
   top: 45px;
-  right: 25px;
+  right: 20px;
   color: currentColor;
-  font-size: 18px;
+  font-size: 22px;
+  z-index: 1;
 }
 section.contact .form-contact .form-request {
   min-height: 150px;
@@ -1461,6 +1471,10 @@ section.contact .form-contact [type=radio]:checked + label:after {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+section.contact .form-contact .err {
+  color: red;
+  position: absolute;
+}
 section.contact .form-contact .check-agree {
   display: flex;
   align-items: center;
@@ -1504,6 +1518,9 @@ section.contact .form-contact .btn-form__contact:hover {
 section.contact .form-contact .btn-form__contact:hover::before {
   width: 0%;
   transition: all 0.2s ease-in-out;
+}
+section.contact .form-contact .btn-form__contact:focus {
+  outline: none;
 }
 @media (max-width: 768px) {
   section.contact .form-contact {
