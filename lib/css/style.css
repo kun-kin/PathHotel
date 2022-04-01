@@ -1367,7 +1367,7 @@ section.contact-us {
 }
 
 .banner {
-  height: 45vh;
+  height: auto;
 }
 .banner img {
   height: 45vh;
