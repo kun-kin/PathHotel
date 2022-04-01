@@ -1661,6 +1661,7 @@ section.contact .form-contact .btn-form__contact:focus {
 .footer .sub-contact {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .footer .sub-contact .email-sub {
   border: solid 1px #000;
