@@ -1441,10 +1441,6 @@ section.contact-us {
   background-color: #FFFBF1;
 }
 
-.footer-cont {
-  margin-top: 50px;
-}
-
 section.contact {
   background: url("../../images/contact-usbg.svg") no-repeat;
   background-position: top center;
@@ -1608,10 +1604,12 @@ section.contact .form-contact .btn-form__contact:focus {
 }
 
 .footer {
-  padding: 50px 0px;
   background: #fff;
   color: #9D9EA1;
   font-size: 15px;
+}
+.footer .footer-cont {
+  padding: 50px 0;
 }
 .footer .row {
   align-items: flex-start;

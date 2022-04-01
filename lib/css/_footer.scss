@@ -1,8 +1,10 @@
 .footer {
-    padding: 50px 0px;
     background: #fff;
     color: #9D9EA1;
     font-size: 15px;
+    .footer-cont {
+        padding: 50px 0;
+    }
     .row {
         align-items: flex-start;
     }
@@ -13,14 +15,6 @@
         font-weight: 500;
         display: inline-block;
         bottom: 0;
-        // &::before {
-        //     content: '\f349';
-        //     position: absolute;
-        //     font-family: 'fontawesome';
-        //     color: #000;
-        //     right: -34px;
-        //     top: 0;
-        // }
         img {
             width: 24px;
         }
