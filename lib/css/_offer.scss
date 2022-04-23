@@ -14,3 +14,93 @@ section.offer {
         text-align: center;
     }
 }
+
+section.detail-offer {
+    .detail-main {
+        padding: 100px 0;
+        .row {
+            justify-content: center;
+            .block-infor {
+                text-align: center;
+                h4 {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 32px;
+                    color: #D1A84D;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                .block-infor__list {
+                    strong {
+                        display: block;
+                    }
+                    p {
+                        display: inline-block;
+                        position: relative;
+                        &::before {
+                            position: absolute;
+                            top: 0;
+                            left: -10px;
+                            content: '\f111';
+                            font-family: fontawesome;
+                            font-size: 5px;
+                        }
+                    }
+                }
+                .term-colapse {
+                    background: #EAD8B0 url(../img/term_down.svg) no-repeat;
+                    background-position: 99% 50%;
+                    color: #000;
+                    padding: 10px;
+                    text-align: center;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    position: relative;
+                    &::before {
+                        position: absolute;
+                        content: '\f078';
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 15px;
+                        font-family: fontawesome;
+                    }
+                }
+                .colapse-content {
+                    background-color: transparent;
+                    margin-top: 10px;
+                    margin-bottom: 0;
+                    display: none;
+                    transition: .5s;
+                    li {
+                        display: inline-block;
+                        p {
+                            display: inline-block;
+                            position: relative;
+                            &::before {
+                                position: absolute;
+                                top: 0;
+                                left: -10px;
+                                content: '\f111';
+                                font-family: fontawesome;
+                                font-size: 5px;
+                            }
+                        }
+                    }
+                }
+                .colapse-content.show {
+                    display: block;
+                    transition: .5s;
+                }
+                .btn-booknow {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #000;
+                    padding: 10px 40px;
+                    background: #EAE3DB;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

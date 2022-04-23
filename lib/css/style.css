@@ -733,6 +733,92 @@ section.offer .title-offer {
   text-align: center;
 }
 
+section.detail-offer .detail-main {
+  padding: 100px 0;
+}
+section.detail-offer .detail-main .row {
+  justify-content: center;
+}
+section.detail-offer .detail-main .row .block-infor {
+  text-align: center;
+}
+section.detail-offer .detail-main .row .block-infor h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #D1A84D;
+  text-align: center;
+  margin-bottom: 30px;
+}
+section.detail-offer .detail-main .row .block-infor .block-infor__list strong {
+  display: block;
+}
+section.detail-offer .detail-main .row .block-infor .block-infor__list p {
+  display: inline-block;
+  position: relative;
+}
+section.detail-offer .detail-main .row .block-infor .block-infor__list p::before {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  content: "\f111";
+  font-family: fontawesome;
+  font-size: 5px;
+}
+section.detail-offer .detail-main .row .block-infor .term-colapse {
+  background: #EAD8B0 url(../img/term_down.svg) no-repeat;
+  background-position: 99% 50%;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  position: relative;
+}
+section.detail-offer .detail-main .row .block-infor .term-colapse::before {
+  position: absolute;
+  content: "\f078";
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  font-family: fontawesome;
+}
+section.detail-offer .detail-main .row .block-infor .colapse-content {
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: none;
+  transition: 0.5s;
+}
+section.detail-offer .detail-main .row .block-infor .colapse-content li {
+  display: inline-block;
+}
+section.detail-offer .detail-main .row .block-infor .colapse-content li p {
+  display: inline-block;
+  position: relative;
+}
+section.detail-offer .detail-main .row .block-infor .colapse-content li p::before {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  content: "\f111";
+  font-family: fontawesome;
+  font-size: 5px;
+}
+section.detail-offer .detail-main .row .block-infor .colapse-content.show {
+  display: block;
+  transition: 0.5s;
+}
+section.detail-offer .detail-main .row .block-infor .btn-booknow {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 10px 40px;
+  background: #EAE3DB;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 15px;
+}
+
 section.banner .banner-main .bg-slide.our-banner {
   height: 70vh;
 }
