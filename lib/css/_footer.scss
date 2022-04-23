@@ -219,3 +219,27 @@
     margin-bottom: 0 !important;
     box-shadow: 1px 2px 0px #fff;
 }
+
+#backtotop {
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.6;
+    transition: .3s;
+    z-index: 1;
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    &:hover {
+        opacity: 1;
+        transition: .3s;
+    }
+}

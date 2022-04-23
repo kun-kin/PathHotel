@@ -5,10 +5,13 @@ section.contact {
     margin: 60px 0;
     .title-intro {
         font-size: 34px;
+        text-transform: capitalize;
     }
     .form-contact {
         padding: 60px 45px;
         box-shadow: 0px 0px 30px #00000014;
+        position: relative;
+        z-index: 1;
         .form-title {
             text-transform: uppercase;
         }
@@ -31,6 +34,9 @@ section.contact {
             border-radius: 0;
             transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
             position: relative;
+            &::placeholder {
+                text-transform: capitalize;
+            }
         }
         .form-group {
             margin-bottom: 35px;
@@ -155,6 +161,30 @@ section.contact {
         }
         @media(max-width:768px) {
             padding: 36px 0;
+        }
+    }
+}
+
+section.contact.dining-reservation {
+    .form-contact {
+        .date-pick {
+            &::before {
+                top: 10px;
+            }
+        }
+        .request {
+            height: 150px;
+        }
+        .custom-control-input {
+            position: absolute;
+            left: 0;
+            z-index: 1;
+            width: 1rem;
+            height: 1.25rem;
+            opacity: 0;
+        }
+        .form-btn {
+            text-align: right;
         }
     }
 }

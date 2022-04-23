@@ -176,6 +176,7 @@ section.destination {
             font-size: 34px;
             border: none !important;
             padding: 8px 20px !important;
+            text-transform: capitalize;
             &:not(:last-child) {
                 &::before {
                     position: absolute;
